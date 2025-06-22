@@ -1,0 +1,84 @@
+.component-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/finalheader.jpg");
+  background-position: center;
+}
+ 
+.component-text1 {
+  color: #ffffff;
+  font-size: 90px;
+  align-self: center;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 900;
+  padding-left: var(--dl-layout-space-fourunits);
+  padding-right: var(--dl-layout-space-fourunits);
+  padding-bottom: var(--dl-layout-space-twounits);
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.component-link {
+  transition: 0.3s;
+  padding-top: var(--dl-layout-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  padding-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-theme-secondary1);
+}
+ 
+.component-link:hover {
+  background-color: var(--dl-color-theme-secondary2);
+}
+ 
+.component-text2 {
+  color: #ffffff;
+}
+ 
+.component-fragment1 {
+  display: contents;
+}
+ 
+.component-text3 {
+  display: inline-block;
+}
+ 
+.component-fragment2 {
+  display: contents;
+}
+ 
+.component-text4 {
+  display: inline-block;
+}
+ 
+@media(max-width: 1600px) {
+  .component-container {
+    background-size: cover;
+    background-image: url("public/finalheader.jpg");
+  }
+}
+ 
+@media(max-width: 991px) {
+  .component-text1 {
+    align-self: center;
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .component-text1 {
+    width: 100%;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+  }
+}

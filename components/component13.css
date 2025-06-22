@@ -1,0 +1,216 @@
+.component13-container1 {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 2000px;
+  align-items: center;
+  border-radius: 12px;
+  justify-content: center;
+}
+ 
+.component13-video {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+ 
+.component13-container2 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  max-width: 2000px;
+  align-items: center;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.component13-container3 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.component13-text1 {
+  color: #ffffff;
+  font-size: 90px;
+  align-self: center;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 900;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: var(--dl-layout-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.component13-text2 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  text-align: center;
+  margin-bottom: var(--dl-layout-space-twounits);
+}
+ 
+.component13-link {
+  transition: 0.3s;
+  padding-top: var(--dl-layout-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  padding-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-theme-secondary1);
+}
+ 
+.component13-link:hover {
+  background-color: var(--dl-color-theme-secondary2);
+}
+ 
+.component13-text3 {
+  color: #ffffff;
+}
+ 
+.component13-fragment1 {
+  display: contents;
+}
+ 
+.component13-text4 {
+  display: inline-block;
+}
+ 
+.component13-fragment2 {
+  display: contents;
+}
+ 
+.component13-text5 {
+  display: inline-block;
+}
+ 
+.component13-fragment3 {
+  display: contents;
+}
+ 
+.component13-text6 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  text-align: center;
+  margin-bottom: var(--dl-layout-space-twounits);
+}
+ 
+.component13-text8 {
+  text-transform: none;
+}
+ 
+@media(max-width: 1600px) {
+  .component13-container1 {
+    width: 90%;
+    height: 600px;
+    overflow: hidden;
+  }
+  .component13-container2 {
+    width: 90%;
+    flex-direction: column;
+  }
+  .component13-text1 {
+    display: block;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .component13-container1 {
+    height: 600px;
+    overflow: hidden;
+  }
+  .component13-video {
+    width: auto;
+    height: 100%;
+    display: flex;
+    padding-bottom: 0px;
+  }
+  .component13-text2 {
+    text-align: center;
+  }
+  .component13-text6 {
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .component13-container1 {
+    height: 600px;
+    overflow: hidden;
+  }
+  .component13-video {
+    width: var(--dl-layout-size-maxwidth);
+    height: 100%;
+    border-radius: 12px;
+  }
+  .component13-container2 {
+    width: 90%;
+    height: 100%;
+  }
+  .component13-container3 {
+    height: 713px;
+  }
+  .component13-text1 {
+    align-self: center;
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .component13-container1 {
+    height: 600px;
+    overflow: hidden;
+  }
+  .component13-video {
+    height: 100%;
+  }
+  .component13-container2 {
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .component13-text1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .component13-container1 {
+    width: 100%;
+    height: 600px;
+    overflow: visible;
+  }
+  .component13-video {
+    width: auto;
+    height: 100%;
+    display: flex;
+  }
+  .component13-text1 {
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    font-size: 60px;
+    justify-content: center;
+  }
+}

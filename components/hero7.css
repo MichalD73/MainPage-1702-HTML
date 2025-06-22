@@ -1,0 +1,138 @@
+.hero7-header23 {
+  width: 80%;
+  display: flex;
+  max-width: 2000px;
+  align-items: center;
+  padding-top: var(--dl-layout-space-fiveunits);
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-layout-space-fiveunits);
+  justify-content: space-between;
+}
+ 
+.hero7-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.hero7-text1 {
+  font-size: 90px;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 900;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.hero7-container2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  max-width: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.hero7-text2 {
+  display: flex;
+  max-width: auto;
+  padding-bottom: var(--dl-layout-space-threeunits);
+}
+ 
+.hero7-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.hero7-image1 {
+  width: 231px;
+  height: auto;
+  object-fit: cover;
+  padding-right: var(--dl-layout-space-twounits);
+}
+ 
+.hero7-image2 {
+  width: 50%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+ 
+.hero7-fragment1 {
+  display: contents;
+}
+ 
+.hero7-text3 {
+  display: inline-block;
+}
+ 
+.hero7-fragment2 {
+  display: contents;
+}
+ 
+.hero7-text7 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 1600px) {
+  .hero7-header23 {
+    width: 90%;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .hero7-header23 {
+    width: 90%;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .hero7-header23 {
+    width: 90%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hero7-text1 {
+    padding-bottom: var(--dl-layout-space-twounits);
+  }
+  .hero7-container2 {
+    max-width: 100%;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .hero7-header23 {
+    flex-wrap: wrap;
+  }
+  .hero7-text1 {
+    font-size: 80px;
+    padding-bottom: var(--dl-layout-space-twounits);
+  }
+}
+ 
+@media(max-width: 479px) {
+  .hero7-header23 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .hero7-text1 {
+    width: auto;
+    font-size: 60px;
+  }
+  .hero7-image1 {
+    padding-right: var(--dl-layout-space-unit);
+  }
+}

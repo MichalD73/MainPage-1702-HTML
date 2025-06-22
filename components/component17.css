@@ -1,0 +1,17 @@
+.component17-container1 {
+  right: 0px;
+  width: auto;
+  bottom: 0px;
+  height: 250px;
+  display: flex;
+  position: fixed;
+}
+ 
+.component17-container2 {
+  width: auto;
+  height: auto;
+}
+ 
+.component17-container3 {
+  display: contents;
+}

@@ -1,0 +1,10 @@
+.component6-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+ 
+.component6-video {
+  width: 100%;
+  height: auto;
+}

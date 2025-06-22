@@ -1,0 +1,170 @@
+.hero2-header5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 0px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.hero2-container {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  max-width: 2000px;
+  align-items: center;
+  border-radius: 12px;
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
+  background-position: center;
+}
+ 
+.hero2-ul {
+  width: 50%;
+  margin: 0px;
+  align-self: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: var(--dl-layout-space-fiveunits);
+  padding-bottom: 0px;
+}
+ 
+.hero2-li1 {
+  padding-top: 0px;
+  padding-bottom: var(--dl-layout-space-unit);
+}
+ 
+.hero2-text1 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+}
+ 
+.hero2-text2 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+}
+ 
+.hero2-text4 {
+  text-transform: none;
+}
+ 
+.hero2-link1 {
+  margin-top: var(--dl-layout-space-threeunits);
+  transition: 0.3s;
+  padding-top: var(--dl-layout-space-unit);
+  border-color: var(--dl-color-theme-secondary1);
+  border-width: 1px;
+  margin-right: var(--dl-layout-space-unit);
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  padding-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-theme-secondary1);
+}
+ 
+.hero2-link1:hover {
+  border-color: var(--dl-color-theme-secondary2);
+  background-color: var(--dl-color-theme-secondary2);
+}
+ 
+.hero2-text6 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+}
+ 
+.hero2-link2 {
+  fill: var(--dl-color-theme-accent1);
+  color: var(--dl-color-theme-accent1);
+  transition: 0.3s;
+  padding-top: var(--dl-layout-space-unit);
+  border-color: var(--dl-color-theme-primary2);
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  padding-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+ 
+.hero2-link2:hover {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  border-color: var(--dl-color-theme-secondary1);
+}
+ 
+.hero2-fragment1 {
+  display: contents;
+}
+ 
+.hero2-text8 {
+  display: inline-block;
+}
+ 
+.hero2-fragment2 {
+  display: contents;
+}
+ 
+.hero2-text9 {
+  display: inline-block;
+}
+ 
+@media(max-width: 1600px) {
+  .hero2-header5 {
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero2-container {
+    width: 90%;
+    height: 600px;
+  }
+  .hero2-ul {
+    align-self: center;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .hero2-header5 {
+    height: auto;
+  }
+  .hero2-container {
+    height: 600px;
+  }
+  .hero2-link1 {
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+}
+ 
+@media(max-width: 991px) {
+  .hero2-link1 {
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+}
+ 
+@media(max-width: 767px) {
+  .hero2-header5 {
+    justify-content: center;
+  }
+  .hero2-ul {
+    width: 100%;
+    padding-left: var(--dl-layout-space-fiveunits);
+  }
+}
+ 
+@media(max-width: 479px) {
+  .hero2-container {
+    height: 600px;
+  }
+  .hero2-ul {
+    width: auto;
+    padding-top: var(--dl-layout-space-fourunits);
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+    padding-bottom: var(--dl-layout-space-fourunits);
+  }
+  .hero2-text1 {
+    width: auto;
+  }
+}

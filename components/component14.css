@@ -1,0 +1,187 @@
+.component14-container1 {
+  width: 80%;
+  height: auto;
+  display: flex;
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+  max-width: 2000px;
+  align-items: center;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.component14-container2 {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+ 
+.component14-container3 {
+  display: contents;
+}
+ 
+.component14-container4 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.component14-text1 {
+  color: #ffffff;
+  font-size: 90px;
+  align-self: center;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 900;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: var(--dl-layout-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.component14-text2 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  text-align: center;
+  margin-bottom: var(--dl-layout-space-twounits);
+}
+ 
+.component14-link {
+  transition: 0.3s;
+  padding-top: var(--dl-layout-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  padding-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-theme-secondary1);
+}
+ 
+.component14-link:hover {
+  background-color: var(--dl-color-theme-secondary2);
+}
+ 
+.component14-text3 {
+  color: #ffffff;
+}
+ 
+.component14-fragment1 {
+  display: contents;
+}
+ 
+.component14-text4 {
+  display: inline-block;
+}
+ 
+.component14-fragment2 {
+  display: contents;
+}
+ 
+.component14-text5 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  text-align: center;
+  margin-bottom: var(--dl-layout-space-twounits);
+}
+ 
+.component14-text7 {
+  text-transform: none;
+}
+ 
+.component14-fragment3 {
+  display: contents;
+}
+ 
+.component14-text9 {
+  display: inline-block;
+}
+ 
+.component14root-class-name {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+}
+ 
+.component14root-class-name1 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+}
+ 
+@media(max-width: 1600px) {
+  .component14-container1 {
+    width: 90%;
+    flex-direction: column;
+  }
+  .component14-container2 {
+    width: 100%;
+  }
+  .component14-text1 {
+    display: block;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .component14-text2 {
+    text-align: center;
+  }
+  .component14-text5 {
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .component14-container1 {
+    width: 90%;
+    height: 100%;
+  }
+  .component14-container2 {
+    width: var(--dl-layout-size-maxwidth);
+  }
+  .component14-container4 {
+    height: 713px;
+  }
+  .component14-text1 {
+    align-self: center;
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .component14-container1 {
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .component14-text1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .component14-text1 {
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    font-size: 60px;
+    justify-content: center;
+  }
+}

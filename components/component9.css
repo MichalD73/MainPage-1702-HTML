@@ -1,0 +1,176 @@
+.component9-container1 {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  max-width: 2000px;
+  align-items: center;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.component9-container2 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.component9-text1 {
+  color: #ffffff;
+  font-size: 90px;
+  align-self: center;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 900;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: var(--dl-layout-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.component9-text2 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  text-align: center;
+  margin-bottom: var(--dl-layout-space-twounits);
+}
+ 
+.component9-link {
+  transition: 0.3s;
+  padding-top: var(--dl-layout-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  padding-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-theme-secondary1);
+}
+ 
+.component9-link:hover {
+  background-color: var(--dl-color-theme-secondary2);
+}
+ 
+.component9-text3 {
+  color: #ffffff;
+}
+ 
+.component9-container3 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+ 
+.component9-container4 {
+  display: contents;
+}
+ 
+.component9-fragment1 {
+  display: contents;
+}
+ 
+.component9-text4 {
+  display: inline-block;
+}
+ 
+.component9-fragment2 {
+  display: contents;
+}
+ 
+.component9-text5 {
+  display: inline-block;
+}
+ 
+.component9-fragment3 {
+  display: contents;
+}
+ 
+.component9-text6 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  text-align: center;
+  margin-bottom: var(--dl-layout-space-twounits);
+}
+ 
+.component9-text8 {
+  text-transform: none;
+}
+ 
+.component9root-class-name1 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+}
+ 
+@media(max-width: 1600px) {
+  .component9-container1 {
+    width: 90%;
+    flex-direction: column;
+  }
+  .component9-text1 {
+    display: block;
+  }
+  .component9-container3 {
+    display: flex;
+    padding-right: 0px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .component9-text2 {
+    text-align: center;
+  }
+  .component9-text6 {
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .component9-container1 {
+    width: 90%;
+    height: 100%;
+  }
+  .component9-text1 {
+    align-self: center;
+    text-align: center;
+  }
+  .component9-container3 {
+    width: 1200px;
+    height: 600px;
+    justify-content: flex-start;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .component9-container1 {
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .component9-text1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .component9-text1 {
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    font-size: 60px;
+    justify-content: center;
+  }
+}
